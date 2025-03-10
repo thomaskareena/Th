@@ -1,17 +1,19 @@
-{
-  "telegram_bot_token": "telegram bot api key ",
-  "telegram_chat_id": "filllllllll",
-  "rugcheck_api_url": "https://api.rugcheck.xyz/v1",
-  "rugcheck_api_key": "your-rugcheck-api-key",
-  "filters": {
-    "min_volume": 10000,
-    "min_price": 0.01,
-    "max_price": 100
-  },
-  "fetch_interval": 300,
-  "pump_threshold": 20,
-  "rug_threshold": -50,
-  "tier_1_volume": 1000000,
-  "coin_blacklist": [],
-  "dev_blacklist": []
-}
+[API_KEYS]
+GMGN_API_KEY = your_gmgn_api_key_here
+SOLSCAN_API_KEY = your_solscan_api_key_here
+RUGCHECK_API_KEY = your_rugcheck_api_key_here
+TOXISOLBOT_API_KEY = your_toxisolbot_api_key_here
+
+[ENDPOINTS]
+GMGN_BASE_URL = https://api.gmgn.io
+SOLSCAN_BASE_URL = https://api.solscan.io
+RUGCHECK_BASE_URL = https://api.rugcheck.io
+TOXISOLBOT_BASE_URL = https://api.toxisolbot.io
+
+[PATHS]
+DATA_DIR = coin_data
+DB_FILE = token_data.db
+CSV_FILE = valid_tokens.csv
+
+[SETTINGS]
+CATEGORIES = rugged,pumped,tier1,cex_listed
